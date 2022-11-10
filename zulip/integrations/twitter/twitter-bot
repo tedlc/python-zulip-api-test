@@ -68,6 +68,8 @@ access token" as well. Fill in the values displayed.
 """
 
 
+print("hello world")
+
 def write_config(config: ConfigParser, configfile_path: str) -> None:
     with open(configfile_path, "w") as configfile:
         config.write(configfile)
